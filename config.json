@@ -1,0 +1,23 @@
+// config.json
+{
+  "datatypes": {},
+  "topics": [],
+  "globalVariables": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "splitPercentage": 50,
+    "first": {
+      "id": "ImageView",
+      "config": {
+        "topic": "/camera/image"
+      }
+    },
+    "second": {
+      "id": "RosOut"
+    }
+  }
+}
+
